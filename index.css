@@ -1,0 +1,69 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background-color: beige;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlogo a{
+    color: green;
+    font-size: 36px;
+    font-weight: bolder;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+li a{
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 28px;
+}
+li a:hover{
+    color: peru;
+    
+}
+button{
+    background-color: chartreuse;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+button:hover{
+    opacity: 1;
+}
+button a{
+    color: peru;
+    font-size: 16px;
+    font-weight: bold;
+}
+.main-background{
+    background: url('https://html-css-simply-recipes.netlify.app/assets/main.jpeg') center/cover no-repeat;
+    height: 40vh;
+    position: relative;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.main-text{
+    color: white;
+    text-align: center;
+    font-size: 38px;
+}
+
+
